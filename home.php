@@ -46,7 +46,7 @@
       </li>
       <li>
         <svg viewBox="0 0 309 309" xmlns="http://www.w3.org/2000/svg" version="1.1">
-          <use xlink:href="#database"></use>
+          <use xlink:href="#host"></use>
         </svg>
         <p> = Host</p>
       </li>

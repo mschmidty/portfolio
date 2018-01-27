@@ -44,7 +44,7 @@
 
               </ul>
               <h3> <?php echo the_title(); ?> </h3>
-              <p>Stuff</p>
+              <p>  <?php echo the_content(); ?></p>
             </div>
 
           </div>

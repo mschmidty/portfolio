@@ -3,10 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="216px" height="216px" viewBox="0 0 216 216" enable-background="new 0 0 216 216" xml:space="preserve">
-<circle fill="#49799D" cx="108" cy="108" r="108"/>
 <g>
-	<rect x="86.376" y="55.766" fill="#F7F9F7" width="44.729" height="44.729"/>
-	<rect x="131.104" y="100.495" fill="#F7F9F7" width="44.729" height="44.729"/>
-	<rect x="41.646" y="100.495" fill="#F7F9F7" width="44.73" height="44.729"/>
+	<rect x="86.376" y="55.766" fill="none" width="44.729" height="44.729"/>
+	<rect x="131.104" y="100.495" fill="none" width="44.729" height="44.729"/>
+	<rect x="41.646" y="100.495" fill="none" width="44.73" height="44.729"/>
 </g>
 </svg>
