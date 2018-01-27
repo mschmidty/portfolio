@@ -1,0 +1,39 @@
+*, *:before, *:after {
+  margin:0;
+  padding:0;
+ }
+
+
+ .center {
+  margin: 0 auto;
+ }
+
+ .scroll {
+  overflow-y:scroll;
+ }
+
+ .underline {
+  text-decoration:underline;
+ }
+
+ .bold {
+  font-weight:bold;
+ }
+
+ .uppercase {
+  text-transform:uppercase;
+ }
+
+
+@mixin clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    &:after {
+        clear: both;
+    }
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700');
+
+
+$h-font:  'Noto Serif',  serif;
+$b-font:  'Noto Sans', serif;
+
+body {
+  font-family: $h-font;
+  color:$black;
+}
+
+h1 {
+  font-family:$h-font;
+  font-weight:bold;
+}
+
+h1 {
+  font-size:5em;
+}
+h2 {
+  font-size:4em;
+  font-weight:500;
+}
+h3 {
+  font-size:3em;
+}
+h4 {
+  font-size:1.5em;
+}
+p {
+  font-family:$b-font;
+}
+
+.section-header {
+  text-align:center;
+  display:block;
+  width:100%;
+  overflow:hidden;
+  @include bp(medium){
+    font-size:3em;
+  }
+}
+
+.section-header span {
+  display: inline-block;
+  position: relative;
+}
+.section-header span:before,
+.section-header span:after {
+  content: "";
+  position: absolute;
+  height: 0.75em;
+  border-bottom: 3px solid $black;
+  top: 0;
+  width: 1000%;
+}
+.section-header span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.section-header span:after {
+  left: 100%;
+  margin-left: 15px;
+}

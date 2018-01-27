@@ -1,0 +1,22 @@
+.responsive {
+  position:relative;
+  padding-bottom:3em;
+}
+.responsive::after {
+  content: "";
+  background:url(images/paisley_pattern.jpg) repeat;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.screen-size {
+  width:80%;
+  margin:3em auto;
+  img {
+    width:100%;
+  }
+}

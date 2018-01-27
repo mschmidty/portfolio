@@ -1,0 +1,7 @@
+.home-section {
+  padding:4em;
+  position:relative;
+  @include bp(small){
+    padding:2em 1em;
+  }
+}

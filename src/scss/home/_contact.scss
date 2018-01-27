@@ -1,0 +1,43 @@
+.contact {
+  display:flex;
+  background:$l-grey;
+  padding:2em;
+  .flex-child {
+    flex-basis:50%;
+    img {
+      width:100%;
+      display:block;
+    }
+    h2 {
+      margin-bottom:0.5em;
+      text-align:center;
+    }
+  }
+  .left {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  @include bp(small){
+    display:block;
+    padding:4em 1em;
+    .flex-child.right {
+      display:none;
+    }
+  }
+}
+.contact-info {
+  display:flex;
+  justify-content:center;
+  p, a {
+    font-size:20px;
+    margin-bottom:0.2em;
+  }
+  p {
+    margin-right:0.5em;
+  }
+}
+.small-text {
+  color:$link;
+  text-align:center;
+}

@@ -1,0 +1,49 @@
+.wood-west {
+  position:relative;
+}
+.wood-west-word {
+  background:$white;
+  position:absolute;
+  display:block;
+  left:50%;
+  margin:0 0 0 -35%;
+  z-index:1;
+  width:70%;
+  top: 50%;
+  transform: translateY(-50%);
+  p {
+    font-size:5em;
+    max-width:100%;
+    margin:0.5em;
+    @include bp(small){
+      font-size:3.5em;
+    }
+  }
+}
+
+.wood-west-child {
+  display:flex;
+  margin:4em;
+  position:relativ;
+  @include bp(small){
+    display:block;
+    margin:0;
+    div {
+      width:100%;
+    }
+  }
+}
+.wood {
+  background:url(images/wood.jpg) no-repeat center center;
+}
+.code {
+  background:url(images/code.jpg) no-repeat center center;
+}
+.wood, .code {
+  height:70vh;
+  width:50%;
+  background-size: cover;
+  @include bp(small){
+    height:45vh;
+  }
+}
